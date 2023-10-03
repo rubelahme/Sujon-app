@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const Dashboard = () => {
   const [item, setItem] = useState([]);
   const [result, setResult] = useState([]);
+  console.log(result);
 
   useEffect(() => {
     fetch("https://sujon-sarver.vercel.app/users")
